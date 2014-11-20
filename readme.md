@@ -1,9 +1,15 @@
 #MonstraHost Slider
 
-MonstraHost slider is a simple, responsive jQuery image slider.
+MonstraHost slider is a simple, responsive jQuery image slider for the open source cms [Monstra](http://www.monstra.org)
 
-Additional info may be available at [MonstraHost](http://www.monstrahost.com/)
+Additional info about the plugin may be available at [MonstraHost](http://www.monstrahost.com/)
 
+This plugin is available on GitHub [download ZIP](https://github.com/thoncs/mhslider/archive/master.zip)
+
+##Installation
+
+1. Unzip the plugin archive and upload the folder 'mhslider' to the plugins directory of your Monstra installation
+2. Activate the plugin by navigating to ` Extends -> Plugins -> Install New `
 
 ##Usage
 
@@ -28,10 +34,22 @@ or
 
 #### Variables
 
-rotate : true -> start the slider on page load,  false -> use navigation buttons or arrow keys to animate slider
++	rotate 
+	
+	true -> start the slider on page load
+	
+	false -> use navigation buttons or arrow keys to animate slider
 
-duration : time in milliseconds (ms) to show each slider image
++	duration
 
-transition : time in milliseconds (ms) to fade one slide to next
+	time in milliseconds (ms) to show each slider image
 
-nav : true -> show navigation arrows on the slider pane, false -> disable navigation images
++	transition
+
+	time in milliseconds (ms) to fade one slide to next
+	
++	nav
+
+	true -> show navigation arrows on the slider pane
+	
+	false -> disable navigation images
